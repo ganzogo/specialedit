@@ -1,0 +1,21 @@
+# Copyright 2010 Ganzogo. All Rights Reserved.
+#
+# specialedit.jquery.js
+#
+# Author: Matthew Hasler (matthew@ganzogo.com)
+#
+# Date: December 2010
+#
+# Description:
+#   jQuery plugin that adds buttons to text input fields which allow the user
+#   to easily enter special characters.
+# 
+#   If you are creating a form to be completed in a language that is not
+#   necessarily the user's first language, they will likely have to use the
+#Ê  Character Map program if they are using Windows, or the equivalent in their
+#Ê  operating system. This is a tiresome user experience. Much better to give
+#Ê  them buttons to quickly input special characters.
+#
+#Ê  This plugin is particularly useful for things like language learning sites,
+#   translation sites, etc.... Any situation where you don't expect your users
+#   to have the hardware to easily enter special characters.

@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>specialedit language demos</title>
+    <style type="text/css">
+      label {
+        width: 200px;
+        float: left;
+      }
+    </style>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="../src/specialedit.jquery.js"></script>
+    <script type="text/javascript" src="languages.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.french').frenchedit();
+        $('.german').germanedit();
+        $('.spanish').spanishedit();
+        $('.italian').italianedit();
+        $('.polish').polishedit();
+      });
+    </script>
+  </head>
+  <body>
+
+    <h1>specialedit language demos</h1>
+  
+    <p>
+      These examples demonstrate how to add specialedit to normal text fields,
+      password fields and textareas for a variety of languages.
+    </p>
+
+    <h2>French input fields</h2>
+    <form>
+      <label for="french-text">Name</label>
+      <input type="text" id="french-text" class="french" style="width:300px;"/><br /><br />
+
+      <label for="french-password">Password</label>
+      <input type="password" id="french-password" class="french" style="width:300px;"/><br /><br />
+    
+      <label for="french-textarea">Comments</label>
+      <textarea id="french-textarea" class="french" cols="60" rows="6"></textarea>
+    </form>
+  
+    <h2>German input fields</h2>
+    <form>
+      <label for="german-text">Name</label>
+      <input type="text" id="german-text" class="german" style="width:300px;"/><br /><br />
+
+      <label for="german-password">Password</label>
+      <input type="password" id="german-password" class="german" style="width:300px;"/><br /><br />
+    
+      <label for="german-textarea">Comments</label>
+      <textarea id="german-textarea" class="german" cols="60" rows="6"></textarea>
+    </form>
+  
+    <h2>Spanish input fields</h2>
+    <form>
+      <label for="spanish-text">Name</label>
+      <input type="text" id="spanish-text" class="spanish" style="width:300px;"/><br /><br />
+
+      <label for="spanish-password">Password</label>
+      <input type="password" id="spanish-password" class="spanish" style="width:300px;"/><br /><br />
+    
+      <label for="spanish-textarea">Comments</label>
+      <textarea id="spanish-textarea" class="spanish" cols="60" rows="6"></textarea>
+    </form>
+  
+    <h2>Italian input fields</h2>
+    <form>
+      <label for="italian-text">Name</label>
+      <input type="text" id="italian-text" class="italian" style="width:300px;"/><br /><br />
+
+      <label for="italian-password">Password</label>
+      <input type="password" id="italian-password" class="italian" style="width:300px;"/><br /><br />
+    
+      <label for="italian-textarea">Comments</label>
+      <textarea id="italian-textarea" class="italian" cols="60" rows="6"></textarea>
+    </form>
+  
+    <h2>Polish input fields</h2>
+    <form>
+      <label for="polish-text">Name</label>
+      <input type="text" id="polish-text" class="polish" style="width:300px;"/><br /><br />
+
+      <label for="polish-password">Password</label>
+      <input type="password" id="polish-password" class="polish" style="width:300px;"/><br /><br />
+    
+      <label for="polish-textarea">Comments</label>
+      <textarea id="polish-textarea" class="polish" cols="60" rows="6"></textarea>
+    </form>
+  
+    <br/>
+    <br/>
+    <br/>
+    <hr/>
+
+    <p>
+      <a href="http://www.ganzogo.com/projects/specialedit">specialedit home page</a>
+    </p>
+
+  </body>
+</html>

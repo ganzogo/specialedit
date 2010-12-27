@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>specialedit styling example</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="../src/specialedit.jquery.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.smileys').specialedit([':-)', ':-(', ';-)'],
+                                  { buttonWidth: 30,
+                                    buttonHeight: 30,
+                                    toolbarBgColor: '#ff0',
+                                    toolbarBorderColor: '#f00',
+                                    buttonBgColor: '#fff',
+                                    buttonBorderColor: '#f00',
+                                    buttonTextColor: '#f00' });
+      });
+    </script>
+  </head>
+  <body>
+
+    <h1>specialedit styling example</h1>
+
+    <p>
+      This example demonstrates how to add custom styling to the specialedit
+      buttons.
+    </p>
+
+    <h2>Smileys</h2>
+    <textarea class="smileys" cols="60" rows="6"></textarea>
+
+    <br/>
+    <br/>
+    <br/>
+    <hr/>
+
+    <p>
+      <a href="http://www.ganzogo.com/projects/specialedit">specialedit home page</a>
+    </p>
+
+  </body>
+</html>

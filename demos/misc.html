@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>specialedit miscellaneous examples</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="../src/specialedit.jquery.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#custom-edit-smileys').specialedit([':-)',
+                                               ':-(',
+                                               ';-)'
+                                              ], { buttonWidth: 30 });
+        $('#custom-edit-currency').specialedit(['&#xA4;',
+                                                '&#x24;',
+                                                '&#xA2;',
+                                                '&#xA3;',
+                                                '&#165;',
+                                                '&#x80;',
+                                                '&#x20A3;',
+                                                '&#x20A4;',
+                                                '&#x20A7;',
+                                                '&#x2030;'
+                                               ]);
+        $('#custom-edit-suits').specialedit(['&clubs;',
+                                             '&hearts;',
+                                             '&spades;',
+                                             '&diams;'
+                                            ]);
+      });
+    </script>
+  </head>
+  <body>
+
+    <h1>specialedit miscellaneous examples</h1>
+  
+    <p>
+      These examples demonstrate how to add specialedit to input fields for
+      a variety of purposes.
+    </p>
+  
+    <h2>Smileys</h2>
+    <textarea id="custom-edit-smileys" cols="60" rows="6"></textarea>
+  
+    <h2>Currency</h2>
+    <textarea id="custom-edit-currency" cols="60" rows="6"></textarea>
+  
+    <h2>Playing card suits</h2>
+    <textarea id="custom-edit-suits" cols="60" rows="6"></textarea>
+    
+    <br/>
+    <br/>
+    <br/>
+    <hr/>
+
+    <p>
+      <a href="http://www.ganzogo.com/projects/specialedit">specialedit home page</a>
+    </p>
+  
+  </body>
+</html>
