@@ -1,14 +1,11 @@
 # Copyright 2010 Ganzogo. All Rights Reserved.
 #
-# specialedit.jquery.js
+# specialedit
 #
+# Version: 0.1
 # Author: Matthew Hasler (matthew@ganzogo.com)
-#
 # Date: December 2010
-#
 # License: http://creativecommons.org/licenses/by/3.0/
-#
-# Compatible with jQuery >= 1.2.4
 #
 # Description:
 #   jQuery plugin that adds buttons to text input fields which allow the user
@@ -23,3 +20,5 @@
 #   This plugin is particularly useful for things like language learning sites,
 #   translation sites, etc.... Any situation where you don't expect your users
 #   to have the hardware to easily enter special characters.
+#
+#   Compatible with jQuery >= 1.2.4
