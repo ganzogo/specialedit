@@ -6,6 +6,9 @@
 #
 # Date: December 2010
 #
+# License:
+#   http://creativecommons.org/licenses/by/3.0/
+#
 # Description:
 #   jQuery plugin that adds buttons to text input fields which allow the user
 #   to easily enter special characters.
