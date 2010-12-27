@@ -6,8 +6,9 @@
 #
 # Date: December 2010
 #
-# License:
-#   http://creativecommons.org/licenses/by/3.0/
+# License: http://creativecommons.org/licenses/by/3.0/
+#
+# Compatible with jQuery >= 1.2.4
 #
 # Description:
 #   jQuery plugin that adds buttons to text input fields which allow the user
